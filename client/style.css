@@ -9,7 +9,6 @@
 
 body {
   background: #343541;
-  overflow: scroll;
 }
 
 #app {
@@ -40,10 +39,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* hides scrollbar */
-#chat_container::-webkit-scrollbar {
-  display: none;
-}
 
 .wrapper {
   width: 100%;
