@@ -1,29 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <script>
-      window.addEventListener('scroll', myFunction);
-      function myFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("myBar").style.width = "100%";
-        } else {
-          document.getElementById("myBar").style.width = "0%";
-        }
-      }
-  </script>
-
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mind Wellness</title>
     <link rel = "stylesheet" href="style.css">
-    <div style="overflow: auto;"></div>
+    <style> 
+      body { overflow-y: scroll; } 
+      </style>
   </head>
   <body>
-    <div id="myProgress">
-      <div id="myBar"></div>
-    </div>
+    <div style="overflow-y: scroll;"> 
     <div id="app">
       <div id="chat_container"></div>
 
